@@ -3,5 +3,17 @@
     "counterAppBarTitle": "Counter",
     "@counterAppBarTitle": {
         "description": "Text shown in the AppBar of the Counter Page"
-    }
+    },
+    "bmiCalculatorAppBarTitle": "BMI Calculator",
+
+    "@__BMI_CALCULATOR_VIEW__": {},
+    "bmiCalculatorHeightInputHint": "Height (m)",
+    "bmiCalculatorWeightInputHint": "Weight (kg)",
+    "bmiCalculatorInvalidDecimal": "Invalid decimal number",
+    "bmiCalculatorCalculateButtonLabel": "Calculate",
+    "bmiCalculatorResultLabel": "Your BMI is:",
+    "bmiCalculatorResultUnderWeight": "Under Weight",
+    "bmiCalculatorResultNormalWeight": "Normal Weight",
+    "bmiCalculatorResultOverWeight": "Over Weight",
+    "bmiCalculatorResultObese": "Obese"
 }

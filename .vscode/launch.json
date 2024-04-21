@@ -5,11 +5,13 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch development",
+      "name": "MacOS development",
       "request": "launch",
       "type": "dart",
       "program": "lib/main_development.dart",
       "args": [
+        "-d",
+        "macos",
         "--flavor",
         "development",
         "--target",

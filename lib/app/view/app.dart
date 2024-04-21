@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bmi_calculator/counter/counter.dart';
+import 'package:flutter_bmi_calculator/bmi_calculator/bmi_calculator.dart';
 import 'package:flutter_bmi_calculator/l10n/l10n.dart';
 
 class App extends StatelessWidget {
@@ -8,7 +8,9 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        visualDensity: VisualDensity.adaptivePlatformDensity,
         appBarTheme: AppBarTheme(
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         ),
@@ -16,7 +18,7 @@ class App extends StatelessWidget {
       ),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      home: const CounterPage(),
+      home: const BmiCalculatorPage(),
     );
   }
 }

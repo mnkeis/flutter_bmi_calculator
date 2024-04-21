@@ -3,5 +3,17 @@
     "counterAppBarTitle": "Contador",
     "@counterAppBarTitle": {
         "description": "Texto mostrado en la AppBar de la página del contador"
-    }
+    },
+    "bmiCalculatorAppBarTitle": "Calculadora de IMC",
+
+    "bmiCalculatorView": {},
+    "bmiCalculatorHeightInputHint": "Altura (m)",
+    "bmiCalculatorWeightInputHint": "Peso (kg)",
+    "bmiCalculatorInvalidDecimal": "Número inválido",
+    "bmiCalculatorCalculateButtonLabel": "Calcular IMC",
+    "bmiCalculatorResultLabel": "Tu IMC es:",
+    "bmiCalculatorResultUnderWeight": "Bajo peso",
+    "bmiCalculatorResultNormalWeight": "Peso saludable",
+    "bmiCalculatorResultOverWeight": "Sobrepeso",
+    "bmiCalculatorResultObese": "Obesidad!"
 }
